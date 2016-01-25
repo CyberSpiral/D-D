@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace Characters
 {
-    class Class
+    class Background
     {
-        bool isSpellCaster;
-
     }
 }
