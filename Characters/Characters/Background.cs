@@ -10,7 +10,7 @@ namespace Characters
     {
         Skills skillProficiencies;
         string feature;
-        string toolProficiencies;
+        string[] toolProficiencies;
         string[] languages;
         string equipment;
 
@@ -20,7 +20,7 @@ namespace Characters
         /// <param name="l">Languages</param>
         /// <param name="e">Equipment</param>
         /// <param name="tp">Tool Proficiencies</param>
-        public Background(Skills s, string f, string[] l, string e, string tP)
+        public Background(Skills s, string f, string[] l, string e, string[] tP)
         {
             skillProficiencies = s;
             feature = f;
@@ -33,7 +33,7 @@ namespace Characters
         /// <param name="f">Feature</param>
         /// <param name="e">Equipment</param>
         /// <param name="tp">Tool Proficiencies</param>
-        public Background(Skills s, string f, string e, string tP)
+        public Background(Skills s, string f, string e, string[] tP)
         {
             skillProficiencies = s;
             toolProficiencies = tP;

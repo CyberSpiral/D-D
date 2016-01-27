@@ -9,10 +9,16 @@ namespace Characters
     class Player
     {
         public string Name { get; set; }
-        public Class[] chosenClasses { get; set; }
+        public DDClass[] chosenClasses { get; set; }
         public AbilityScore abilityScores { get; set; }
         public Skills skills { get; set; }
-        public String proficiencies { get; set; }
+        public string proficiencies { get; set; }
+        public Background background { get; set; }
+
+        public Player()
+        {
+
+        }
 
         
 
