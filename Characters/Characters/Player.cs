@@ -12,6 +12,7 @@ namespace Characters
         public Class[] chosenClasses { get; set; }
         public AbilityScore abilityScores { get; set; }
         public Skills skills { get; set; }
+        public String proficiencies { get; set; }
 
         
 
